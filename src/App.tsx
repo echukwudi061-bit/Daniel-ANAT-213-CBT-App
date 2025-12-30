@@ -988,7 +988,7 @@ export default function DanielAnatomyCBT() {
                         <button type="button" onClick={() => setAdminTab('results')} className={`w-full text-left p-3 rounded flex items-center ${adminTab === 'results' ? 'bg-blue-600' : 'hover:bg-gray-800'}`}>
                             <FileText className="w-5 h-5 mr-3" /> Submissions
                         </button>
-                        <buttontype="button" onClick={() => { setIsAdmin(false); setView('welcome'); }} className="w-full text-left p-3 rounded flex items-center text-red-400 hover:bg-gray-800 mt-10">
+                        <button type="button" onClick={() => { setIsAdmin(false); setView('welcome'); }} className="w-full text-left p-3 rounded flex items-center text-red-400 hover:bg-gray-800 mt-10"
                             <LogOut className="w-5 h-5 mr-3" /> Logout
                         </button>
                     </nav>
