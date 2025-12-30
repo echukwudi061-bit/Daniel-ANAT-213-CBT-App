@@ -1222,3 +1222,4 @@ export default function DanielAnatomyCBT() {
 }
 
 
+export default App;
